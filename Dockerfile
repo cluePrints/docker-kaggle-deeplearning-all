@@ -3,6 +3,5 @@ ADD requirements.txt .
 RUN apt-get update \
   ; apt-get install -y cmake python3-pip \
   && rm -rf /var/lib/apt/lists/*
-RUN python3 --version
 RUN pip3 install Cython && pip3 install -r requirements.txt \
   && rm -rf ~/.cache/pip/
