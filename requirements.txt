@@ -12,6 +12,7 @@ click==7.1.2
 configparser==5.0.0
 cycler==0.10.0
 cymem==2.0.3
+dask==2.10.1
 decorator==4.4.2
 docker-pycreds==0.4.0
 fastai==1.0.61
