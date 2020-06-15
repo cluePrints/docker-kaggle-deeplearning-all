@@ -1,6 +1,6 @@
 
 
-    export VERSION=0.0.3; gradient jobs create --machineType P4000 --buildOnly --projectId prpw22h7u --workspace . --useDockerfile true --registryTarget soboleiv/kaggle-deeplearning-all:$VERSION --registryTargetUsername soboleiv --registryTargetPassword $password
+    export VERSION=0.0.13; gradient jobs create --optionsFile gradient.yml --registryTarget soboleiv/kaggle-deeplearning-all:$VERSION --registryTargetUsername soboleiv --registryTargetPassword $password
 
 
 https://github.com/NVIDIA/nvidia-docker/wiki/CUDA#requirements

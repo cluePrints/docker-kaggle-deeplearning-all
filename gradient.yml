@@ -1,0 +1,6 @@
+machineType: P4000
+ignoreFiles: '.DS_Store,*.parquet,*.feather,*.pkl,*.ipynb,*.pth,*.pkl,*.db*,*.png,*.ini,*.pyc,cache,submissions/*.*,processed/*,tmp/*.*,tmp/*,__pycache__/*,ivanocode/tmp/*,*tmp*,raw/*.*,wandb/*,venv/*,*.txt,tmp,run/*'
+isPreemptible: false
+projectId: prpw22h7u
+useDockerfile: true
+workspace: .
