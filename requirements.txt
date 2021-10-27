@@ -14,7 +14,7 @@ configparser==5.0.0
 crc32c==2.0
 cycler==0.10.0
 cymem==2.0.3
-dask==2.18.1
+dask==2021.10.0
 decorator==4.4.2
 deprecation==2.1.0
 dill==0.3.1.1
