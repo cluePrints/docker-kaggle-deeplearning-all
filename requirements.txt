@@ -36,7 +36,7 @@ importlib-metadata==1.6.1
 ipython==7.15.0
 ipython-genutils==0.2.0
 jedi==0.17.0
-joblib==0.15.1
+joblib==1.2.0
 kiwisolver==1.2.0
 locket==0.2.0
 Markdown==3.2.2
